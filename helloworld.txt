@@ -25,3 +25,7 @@ $ git diff helloworld.txt
 $ git log
 //简版查询
 $ git log --pretty=oneline
+//在版本的历史之间穿梭
+$ git reset --hard 3628164
+//记录你的每一次命令：
+$ git reflog
