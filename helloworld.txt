@@ -10,3 +10,10 @@ $ pwd
 
 $ git init
 Initialized empty Git repository in /Users/michael/learngit/.git/
+
+$ git add readme.txt
+
+$ git commit -m "wrote a readme file"
+[master (root-commit) cb926e7] wrote a readme file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 readme.txt
