@@ -37,3 +37,8 @@ $ git reset HEAD readme.txt
 
 //删除文件
 $ git rm test.txt
+
+//关联一个远程库
+$ git remote add origin https://github.com/hardyio/learngit.git
+//第一次推送master分支的所有内容
+$ git push -u origin master
