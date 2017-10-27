@@ -29,3 +29,6 @@ $ git log --pretty=oneline
 $ git reset --hard 3628164
 //记录你的每一次命令：
 $ git reflog
+
+//丢弃工作区的修改
+$ git checkout -- readme.txt
