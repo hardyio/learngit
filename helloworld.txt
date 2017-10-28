@@ -42,3 +42,27 @@ $ git rm test.txt
 $ git remote add origin https://github.com/hardyio/learngit.git
 //第一次推送master分支的所有内容
 $ git push -u origin master
+
+//克隆到本地库
+$ git clone https://github.com/hardyio/learngit.git
+
+Git支持多种协议，默认的git://使用ssh，但也可以使用https等其他协议。
+//git@github.com:hardyio/learngit.git
+//https://github.com/hardyio/learngit.git
+
+//查看远程库信息
+$ git remote -v
+
+Git鼓励大量使用分支：
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
