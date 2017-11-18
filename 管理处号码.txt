@@ -1,0 +1,370 @@
+nox_adb.exe connect 127.0.0.1:62001
+夜神-Device supports x86,armeabi-v7a
+Genymotion And Virtual Devices-Device supports x86
+
+Content-Type: application/x-www-form-urlencoded
+
+sourceinsight 查看源码软件
+
+accessToken = [user_friends, public_profile]
+userid = 109313512944826
+next = user_friends
+next = public_profile
+Me ={"id":"109313512944826","name":"Yio Jack"}
+MyFriends =[{"id":"121282001745000","name":"Anderson Edward"}]
+
+licecap windows直接录制gif图。
+
+http://pan.baidu.com/s/1jI7koGQ H5教程
+
+http://appwebsrv01.22168168.com/PCMIS_App.asmx/GetApiCode
+
+http://appwebsrv01.22168168.com/PCMIS_App.asmx/GetReservedTimeList?&Signature=c0597f7e02f03008fdd7defc3a6315ae0fe666fd&Nonce=1177553372&Timestamp=1177553172&AppRecordID=3A0D7033FA67461490C57D6790F79818&TeachID=pc529&ReservedDate=2017-04-28&Phase=3
+
+翟欣欣
+370902198611132726
+山东省泰安市泰山区
+1986年11月13日
+女
+
+社保断交后带来的后果 你知道多少？ 
+http://www.sohu.com/a/109114549_465514
+
+http://appwebsrv01.22168168.com/PCMIS_App.asmx/GetLogin?&AppPhoneNumber=15507596326&AppPassword=zhoutian&Signature=a0c2530fbc84c6f4f07a3698b220958782e821fc&Nonce=1177555078&Timestamp=1177554878
+
+AddCarOrderInfo_Android
+
+
+TeacherID=pc529
+
+
+UI线程一直在这个循环里跳不出来，主线程不会因为Looper.loop()里的死循环卡死吗，那还怎么执行其他的操作呢？
+
+在looper启动后，主线程上执行的任何代码都是被looper从消息队列里取出来执行的。也就是说主线程之后都是通过其他线程给它发消息来实
+
+现执行其他操作的。生命周期的回调也是如此的，系统服务ActivityManagerService通过Binder发送IPC调用给APP进
+
+程，App进程接到到调用后，通过App进程的Binder线程给主线程的消息队列插入一条消息来实现的。
+
+作者：渊渊414
+链接：http://www.jianshu.com/p/697c1337dd20
+來源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+20141281811
+micphone pro
+测试视频
+http://f1.webshare.mob.com/dvideo/demovideos.mp4
+测试音频
+http://music.huoxing.com/upload/20130330/1364651263157_1085.mp3
+
+keytool -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | openssl sha1 -binary | openssl base64
+
+
+http://graph.facebook.com/109313512944826/picture?type=small
+http://graph.facebook.com/109313512944826/picture?type=normal
+http://graph.facebook.com/121282001745000/picture?type=normal
+
+http://192.168.1.254:8080/vodfile/
+
+facebook 
+应用编号 202957996859138
+Me ={"name":"Yio Jack","id":"109313512944826"}
+MyFriends =[{"name":"Anderson Edward","id":"121282001745000"}]
+
+
+腾讯课堂https://ke.qq.com/course/list?mt=1001&st=2003&tt=3021
+微信分享 应用签名
+4bc1b943d28e3fe400dd85f851976cac
+
+
+
+如何把一个表中的数据复制到另一个表中
+https://jingyan.baidu.com/article/7e440953ce6e182fc0e2efff.html
+
+SQLite无法使用drop column删除表字段解决办法 
+create table temp as select SINGER_ID,SINGER_NAME,SINGER_TYPE,SINGER_PICTURE_PATH,SINGER_PINYIN,SINGER_ZS,SINGER_SERVER_PATH,SINGER_VERSION from DBSinger;
+
+mdpi：hdpi：xhdpi：xxhdpi：xxxhdpi=2：3：4：6：8
+
+ 百分比:0%  HEX: 00
+    百分比:1%  HEX: 30
+    百分比:2%  HEX: 50
+    百分比:3%  HEX: 80
+    百分比:4%  HEX: A0
+    百分比:5%  HEX: D0
+    百分比:6%  HEX: F0
+    百分比:7%  HEX: 12
+    百分比:8%  HEX: 14
+    百分比:9%  HEX: 17
+    百分比:10%  HEX: 1A
+    百分比:11%  HEX: 1C
+    百分比:12%  HEX: 1F
+    百分比:13%  HEX: 21
+    百分比:14%  HEX: 24
+    百分比:15%  HEX: 26
+    百分比:16%  HEX: 29
+    百分比:17%  HEX: 2B
+    百分比:18%  HEX: 2E
+    百分比:19%  HEX: 30
+    百分比:20%  HEX: 33
+    百分比:21%  HEX: 36
+    百分比:22%  HEX: 38
+    百分比:23%  HEX: 3B
+    百分比:24%  HEX: 3D
+    百分比:25%  HEX: 40
+    百分比:26%  HEX: 42
+    百分比:27%  HEX: 45
+    百分比:28%  HEX: 47
+    百分比:29%  HEX: 4A
+    百分比:30%  HEX: 4D
+    百分比:31%  HEX: 4F
+    百分比:32%  HEX: 52
+    百分比:33%  HEX: 54
+    百分比:34%  HEX: 57
+    百分比:35%  HEX: 59
+    百分比:36%  HEX: 5C
+    百分比:37%  HEX: 5E
+    百分比:38%  HEX: 61
+    百分比:39%  HEX: 63
+    百分比:40%  HEX: 66
+    百分比:41%  HEX: 69
+    百分比:42%  HEX: 6B
+    百分比:43%  HEX: 6E
+    百分比:44%  HEX: 70
+    百分比:45%  HEX: 73
+    百分比:46%  HEX: 75
+    百分比:47%  HEX: 78
+    百分比:48%  HEX: 7A
+    百分比:49%  HEX: 7D
+    百分比:50%  HEX: 80
+    百分比:51%  HEX: 82
+    百分比:52%  HEX: 85
+    百分比:53%  HEX: 87
+    百分比:54%  HEX: 8A
+    百分比:55%  HEX: 8C
+    百分比:56%  HEX: 8F
+    百分比:57%  HEX: 91
+    百分比:58%  HEX: 94
+    百分比:59%  HEX: 96
+    百分比:60%  HEX: 99
+    百分比:61%  HEX: 9C
+    百分比:62%  HEX: 9E
+    百分比:63%  HEX: A1
+    百分比:64%  HEX: A3
+    百分比:65%  HEX: A6
+    百分比:66%  HEX: A8
+    百分比:67%  HEX: AB
+    百分比:68%  HEX: AD
+    百分比:69%  HEX: B0
+    百分比:70%  HEX: B3
+    百分比:71%  HEX: B5
+    百分比:72%  HEX: B8
+    百分比:73%  HEX: BA
+    百分比:74%  HEX: BD
+    百分比:75%  HEX: BF
+    百分比:76%  HEX: C2
+    百分比:77%  HEX: C4
+    百分比:78%  HEX: C7
+    百分比:79%  HEX: C9
+    百分比:80%  HEX: CC
+    百分比:81%  HEX: CF
+    百分比:82%  HEX: D1
+    百分比:83%  HEX: D4
+    百分比:84%  HEX: D6
+    百分比:85%  HEX: D9
+    百分比:86%  HEX: DB
+    百分比:87%  HEX: DE
+    百分比:88%  HEX: E0
+    百分比:89%  HEX: E3
+    百分比:90%  HEX: E6
+    百分比:91%  HEX: E8
+    百分比:92%  HEX: EB
+    百分比:93%  HEX: ED
+    百分比:94%  HEX: F0
+    百分比:95%  HEX: F2
+    百分比:96%  HEX: F5
+    百分比:97%  HEX: F7
+    百分比:98%  HEX: FA
+    百分比:99%  HEX: FC
+    百分比:100%  HEX: FF
+
+
+http://www.apkbus.com/forum.php?mod=viewthread&tid=269625&extra=page%3D1%26filter%3Dsortid%26sortid%3D12D12
+GuideView 导航图
+http://www.wjdiankong.cn/ Android逆向之旅
+https://github.com/seven332/EhViewer  绅士阅读 的源代码，符合MD的设计规范
+http://www.ehviewer.com/changelog 绅士阅读 的更新日记
+Android 7.0 开发者版本
+https://developer.android.google.cn/about/versions/nougat/android-7.0.html 
+https://github.com/109021017/android-TopActivity 左上角的显示包名
+http://www.jikedaohang.com/index.html 极客导航
+http://p.codekk.com/ 源码解析
+https://github.com/Trinea/android-open-project 优秀开源框架集合
+
+http://www.xueandroid.com/hierarchy?courseId=13&chapterId=200 玩安卓
+
+http://www.androiddevtools.cn/
+
+http://hukai.me/android-training-course-in-chinese/index.html?utm_source=androiddevtools.cn&utm_medium=website Android官方培训课程中文版
+//连接状态
+if(intent.getAction().equals(ConnectivityManager.CONNECTIVITY_ACTION)){  
+                AppListYPLog.e("DEMO","网络状态切换...");  
+                //注册接口  
+                new Thread(){  
+                    @Override  
+                    public void run(){  
+                        //开始注册  
+                        register();  
+                    }  
+                }.start();  
+            }  
+
+String ip = getLocalIpAddress();  
+    public String getLocalIpAddress(){  
+              
+            WifiManager wifimanager = (WifiManager)this.getSystemService(Context.WIFI_SERVICE);  
+            WifiInfo wifiinfo = (WifiInfo)wifimanager.getConnectionInfo();  
+            try {    
+                int i = wifiinfo.getIpAddress();  
+                //返回IP 地址  
+                return (i&0xff)+"."+((i>>8)&0xff)+"."+((i>>16)&0xff)+"."+((i>>24)&0xff);  
+            } catch (Exception ex) {    
+                ex.printStackTrace();  
+            }    
+            return null;    
+        }  
+
+
+PowerManager pm = (PowerManager) getSystemService(Context.POWER_SERVICE);
+
+        PowerManager.WakeLock wakeLock = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "My Tag");
+
+        wakeLock.acquire();
+cn070@naver.com
+wifi连接成功 log信息  Linux范围
+09-12 20:36:20.265 19709-19709/? I/wpa_supplicant: wlan0: Trying to associate with 80:89:17:f0:5b:10 (SSID='ENTER' freq=2437 MHz)
+09-12 20:36:20.432 19709-19709/? I/wpa_supplicant: wlan0: Associated with 80:89:17:f0:5b:10
+09-12 20:36:20.585 19709-19709/? I/wpa_supplicant: wlan0: WPA: Key negotiation completed with 80:89:17:f0:5b:10 [PTK=CCMP GTK=CCMP]
+09-12 20:36:20.585 19709-19709/? I/wpa_supplicant: wlan0: CTRL-EVENT-CONNECTED - Connection to 80:89:17:f0:5b:10 completed [id=11 id_str=]
+
+
+WifiManager.SCAN_RESULTS_AVAILABLE_ACTION 扫描结果改变 广播频率高
+<action android:name="android.net.wifi.SCAN_RESULTS" />
+
+
+WifiManager.SUPPLICANT_STATE_CHANGED_ACTION 请求状态改变  扫描到wifi发送的广播
+<action android:name="android.net.wifi.supplicant.STATE_CHANGE" />
+
+WifiManager.WIFI_STATE_CHANGED_ACTION wifi开关状态改变
+android.net.wifi.WIFI_STATE_CHANGED
+
+
+WifiManager.NETWORK_STATE_CHANGED_ACTION
+android.net.wifi.STATE_CHANGE
+
+mFilter = new IntentFilter();
+ 184         mFilter.addAction(WifiManager.WIFI_STATE_CHANGED_ACTION);
+ 185         mFilter.addAction(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION);
+ 186         mFilter.addAction(WifiManager.NETWORK_IDS_CHANGED_ACTION);
+ 187         mFilter.addAction(WifiManager.SUPPLICANT_STATE_CHANGED_ACTION);
+ 188         mFilter.addAction(WifiManager.CONFIGURED_NETWORKS_CHANGED_ACTION);
+ 189         mFilter.addAction(WifiManager.LINK_CONFIGURATION_CHANGED_ACTION);
+ 190         mFilter.addAction(WifiManager.NETWORK_STATE_CHANGED_ACTION);
+ 191         mFilter.addAction(WifiManager.RSSI_CHANGED_ACTION);
+
+private final BroadcastReceiver mReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            String action = intent.getAction();
+            if (WifiManager.WIFI_STATE_CHANGED_ACTION.equals(action)) {
+                handleWifiStateChanged(intent.getIntExtra(
+                        WifiManager.EXTRA_WIFI_STATE, WifiManager.WIFI_STATE_UNKNOWN));
+            } else if (WifiManager.SUPPLICANT_STATE_CHANGED_ACTION.equals(action)) {
+                if (!mConnected.get()) {
+                    handleStateChanged(WifiInfo.getDetailedStateOf((SupplicantState)
+                            intent.getParcelableExtra(WifiManager.EXTRA_NEW_STATE)));
+                }
+            } else if (WifiManager.NETWORK_STATE_CHANGED_ACTION.equals(action)) {
+                NetworkInfo info = (NetworkInfo) intent.getParcelableExtra(
+                        WifiManager.EXTRA_NETWORK_INFO);
+                mConnected.set(info.isConnected());
+                handleStateChanged(info.getDetailedState());
+            }
+        }
+    };
+
+Android wifi状态三种广播
+http://www.blogjava.net/liuyanbo/archive/2012/09/17/387882.html
+
+
+数据库更新
+public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+//无break的，可以保证每一个版本升级的逻辑都会执行到
+                switch (oldVersion) {
+                case 1:
+                    db.execSQL("create table users (id integer primary key autoincrement, name varchar(20), sex varchar(6))");
+                case 2: 
+                   db.execSQL("alter table user add column money varchar(20)");
+                 default:
+                }
+
+
+TextureView+media
+
+
+
+
+
+chmod 777 apkPath
+export LD_LIBRARY_PATH=/vendor/lib:/system/lib
+pm install -r apkPath
+adb shell monkey -p com.et.et24khc.enter -v 50000
+adb shell monkey -p com.etk24hc.karaoke -v 50000
+adb shell monkey -p com.enter.
+magicsing -v 50000
+
+
+
+wifi密码长度8-63
+
+Android 解决不同进程发送KeyEvent 的问题
+
+
+
+安卓默认字体内容
+http://www.cnbeta.com/articles/soft/114854.htm
+http://book.51cto.com/art/201204/328257.htm
+
+
+项目使用greendao
+Program crash by NoClassDefFoundError with Android Studio on Android 4.x
+google搜索到了答案 stackoverflow
+
+ 
+
+I was incompletely implementing MultiDex support, so some of my classes weren't in the proper dex file. To fix it, you have to do more than just set multiDexEnabled = true in your defaultConfig block. You also have to:
+1.Include compile 'com.android.support:multidex:1.0.1' in your dependencies
+2.Have your Application class extend MultiDexApplication instead of just Application. Alternatively, you can call MultiDex.install() in attachBaseContext() of your application.
+ 
+
+手机乐园 app各个版本的apk
+
+getColor 颜色选择器失效
+getColorStateList OK
+
+http://www.jianshu.com/p/c69d63b70650?from=timeline
+kotlin教程
+
+http://www.huwei.tech/ blog
+http://www.open-open.com/lib/view/open1488856831494.html
+Android Transition Framework 详解 --- 超炫的动画框架
+
+https://stackoverflow.com/questions/41650721/attempt-to-invoke-virtual-method-android-os-handler-android-support-v4-app-frag
+Attempt to invoke virtual method 'android.os.Handler android.support.v4.app.FragmentHostCallback.getHandler()' on a null object reference
+
+RecyclerView优点
+item复用性高
+把ViewHolder的实现封装起来，规范了ViewHolder，把item的view写入ViewHolder中，可以通过复用ViewHolder来实现view的复用
+灵活、可定制化高、可拓展性高
+整体上看RecyclerView架构，提供了一种插拔式的体验：高度的解耦，异常的灵活
