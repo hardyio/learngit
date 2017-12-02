@@ -28,9 +28,6 @@ Gralde控制生成APK文件名称
 > "onPostCreate是指onPostCreate方法是指onCreate方法彻底执行完毕的回调"
 > 
 > [http://www.jianshu.com/p/d586c3406cfb](http://www.jianshu.com/p/d586c3406cfb)
-	
-
-
 
 -
 > View#post与Handler#post的区别，以及导致的内存泄漏分析	
@@ -40,17 +37,17 @@ Gralde控制生成APK文件名称
 
 ---
 ### MeiZi	
-作者:drakeet 数据来自代码家的干货网站：http://gank.io
+作者&设计:drakeet 数据来自代码家的干货网站：http://gank.io
 	
 源代码：[https://github.com/drakeet/Meizhi](https://github.com/drakeet/Meizhi)	
 	
-WebView常用配置	进度显示,标题
+WebView常用配置	进度显示,网页标题显示在ToolBar
 
-Material Design 	CoordinatorLayout+AppBarLayout+CollapsingToolBarLayout+ToolBar+NestedScrollView
+***Material Design*** 	*CoordinatorLayout+AppBarLayout+CollapsingToolBarLayout+ToolBar*
 
-FloatingActionButton.Behavior	监听RecyclerView滑动设置behavior
+FloatingActionButton.Behavior	自定义Behavior
 
-TextSwitcher	具有设置动画的API(直接使用系统提供的淡入淡出)
+TextSwitcher	该View具有设置动画的API-setInAnimation,setOutAnimation(直接使用系统提供的淡入淡出)
 
 RxJava 使用多种操作符	
 
@@ -62,6 +59,17 @@ versionCode versionName"
 Gralde控制生成APK文件名称	
 
 Retrolambda使用	
+
+Otto 是square公司出的一个事件库（pub/sub模式），用来简化应用程序组件之间的通讯。
+
+AlarmManager+BroadcastReceiver+HeadsupCompat(第三方Library) 定时弹出悬挂式Notification 看下图
+![screenshot1](./screenshot1.png)
+
+横竖屏切换布局的处理(当前版本在清单文件中使Activity强制竖屏,相关代码不执行了)
+
+TextView设置2种不同样式文本
+
+RecyclerView的Item布局中某个View执行显示动画，非整个Item的显示动画
 
 ##### 笔记
 > ImageView显示的图片资源可以是通过XML属性或者Java代码指定显示的图片内容，可以通过设置Resource、Uri 、Bitmap对象、Drawable对象来指定。  
@@ -77,6 +85,19 @@ Retrolambda使用
 >ImageView学习笔记 [http://www.jianshu.com/p/1fa1321f106c](http://www.jianshu.com/p/1fa1321f106c)
 
 -
-> View#post与Handler#post的区别，以及导致的内存泄漏分析	
+> AppCompatTheme 包含背景点击效果 "?attr/selectableItemBackground" -视图范围内展示波纹效果
+> ![image1](./images/image1.gif)
 > 
-> [http://www.jianshu.com/p/7d5808eae883](http://www.jianshu.com/p/7d5808eae883)
+> ?android:attr/selectableItemBackgroundBorderless –将波纹效果延伸至视图之外。
+> 
+> ![image1](./images/image2.gif)
+
+- 
+> Android5.0新特性推出了悬挂式Notification [http://www.jianshu.com/p/e766ce44268b](http://www.jianshu.com/p/e766ce44268b)
+
+-
+>Fragment
+
+>setRetainInstance(true) 旋转时 Fragment 不需要重新创建。fragment始终持有父Activity的引用,即使在父Activity被销毁和重新创建之后。
+>
+>setHasOptionsMenu(true) 无论如何, 你必须在 onCreate() 期间调用 setHasOptionsMenu() 来指出fragment愿意添加item到选项菜单(否则, fragment将接收不到对 onCreateOptionsMenu()的调用)
