@@ -96,3 +96,16 @@ $ git remote -v
 > //git@github.com:hardyio/learngit.git
 > //https://github.com/hardyio/learngit.git
 
+##### TAG
+
+列显已有的标签：git tag
+
+轻量级标签：git tag v1.0.0 -m 'release v1.0.0'
+
+打标签并添加说明：git tag -a v1.0.0 -m 'release v1.0.0'
+
+将标签提交到远程仓库：git push origin v1.0.0
+
+本地删除tag：git tag -d v1.0.0
+
+远程库删除tag：git push origin :refs/tags/v1.0.0
