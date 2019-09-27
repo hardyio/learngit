@@ -1,3 +1,9 @@
+##一个在线可视化交互学习 Git 网站，帮助初级开发人员快速理解 Git 操作流程。
+项目地址：[https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
+
+在线体验：[https://learngitbranching.js.org/?demo](https://learngitbranching.js.org/?demo)
+
+##笔记
 ##### 安装完成后，还需要最后一步设置，在命令行输入：
 
 * $ git config --global user.name "Your Name"
