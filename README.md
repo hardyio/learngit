@@ -82,18 +82,37 @@ $ git remote -v
 
 查看分支：git branch
 
-创建分支：git branch <name>
+创建分支：git branch \<name>
 
-切换分支：git checkout <name>
+切换分支：git checkout \<name>
 
-创建+切换分支：git checkout -b <name>
+创建+切换分支：git checkout -b \<name>
 
-合并某分支到当前分支：git merge <name>
+合并指定分支到当前分支：git merge \<name>
 
-删除分支：git branch -d <name>
+删除分支：git branch -d \<name>
 
-> Git支持多种协议，默认的git://使用ssh，但也可以使用https等其他协议。
+##### 创建远程分支：
+
+1、在当前分支下创建dev的本地分支：git checkout -b dev
+
+2、将dev分支推送到远程：git push origin dev
+
+3、将本地分支dev关联到远程分支dev上：git branch --set-upstream-to=origin/dev
+
+查看本地各个分支目前最新的提交：git branch -v
+
+查看远程分支：git branch -r
+
+查看远程各个分支目前最新的提交：git branch -r -v
+
+查看本地分支和远程分支的映射关系：git branch -vv
+
+
+> Git支持多种协议，默认的git://使用ssh，但也可以使用https(速度较慢,每次推送都必须输入口令)等其他协议。
+>
 > //git@github.com:hardyio/learngit.git
+>
 > //https://github.com/hardyio/learngit.git
 
 ##### TAG
@@ -109,3 +128,15 @@ $ git remote -v
 本地删除tag：git tag -d v1.0.0
 
 远程库删除tag：git push origin :refs/tags/v1.0.0
+
+##### 删除不想要的远程仓库提交
+
+git reset commitId （注：不要带–hard）到上个版本
+
+git stash 暂存修改
+
+git push --force 强制push，远程的最新的一次commit被删除
+
+git stash pop 释放暂存的修改，开始修改代码
+
+git add . -> git commit -m "massage" -> git push
