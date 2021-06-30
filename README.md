@@ -19,6 +19,15 @@ git remote add origin https://github.com/hardyio/test.git
 git branch -M master
 git push -u origin master
 ```
+解决同步代码时每次需要输入用户名和密码
+```
+git config credential.helper store
+```
+若想把项目的用户名和密码删掉
+```
+git credential-manager uninstall
+```
+
 ##### 安装完成后，还需要最后一步设置，在命令行输入：
 
 * $ git config --global user.name "Your Name"
