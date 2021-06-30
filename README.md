@@ -5,18 +5,20 @@
 
 ## 笔记 ##
 …or create a new repository on the command line
+(```)
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/hardyio/test.git
 git push -u origin master
-
+(```)
 …or push an existing repository from the command line
+(```)
 git remote add origin https://github.com/hardyio/test.git
 git branch -M master
 git push -u origin master
-
+(```)
 ##### 安装完成后，还需要最后一步设置，在命令行输入：
 
 * $ git config --global user.name "Your Name"
