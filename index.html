@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <title>UniWebView Bridge Example</title>
     <script type="text/javascript">
-        // 确保此函数在页面加载完成后执行
+        function sendMessageToUnity(message) {
+            // 使用 postMessage API 向 Unity 发送消息
+            window.postMessage(message, '*');
+        }
+
         window.onload = function() {
-            // 定义按钮点击事件处理程序
             document.getElementById('callUnity').addEventListener('click', function() {
-                // 调用 Unity C# 方法，传递参数 'Hello from JavaScript!'
-                if (window.uniwebview && window.uniwebview.call) {
-                    window.uniwebview.call('MyCSharpMethod', 'Hello from JavaScript!');
-                } else {
-                    console.error('uniwebview bridge not available');
-                }
+                sendMessageToUnity('Hello from JavaScript!');
             });
         };
     </script>
 </head>
 <body>
-    <h1>UniWebView 桥接示例</h1>
-    <button id="callUnity">调用 Unity 方法</button>
+<h1>UniWebView 桥接示例</h1>
+<button id="callUnity">调用 Unity 方法</button>
 </body>
 </html>
