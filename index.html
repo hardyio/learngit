@@ -8,7 +8,7 @@
             // 使用 postMessage API 向 Unity 发送消息
             window.postMessage(message, '*');
         }
-        function ReactNativeWebView() {
+        function clickBtn() {
                     alert('test');
                     window.ReactNativeWebView('Hello from JavaScript!');
                 }
@@ -21,7 +21,7 @@
 </head>
 <body>
 <h1>UniWebView 桥接示例</h1>
-<button onclick="ReactNativeWebView()">调用 Unity 方法</button>
+<button onclick="clickBtn()">调用 Unity 方法</button>
 <!--<button id="callUnity">调用 Unity 方法</button>-->
 </body>
 </html>
