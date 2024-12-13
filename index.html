@@ -9,8 +9,8 @@
             window.postMessage(message, '*');
         }
         function clickBtn() {
-                    alert('test');
-                    ReactNativeWebView('Hello from JavaScript!');
+                    alert('test22');
+                    uniWebView.postMessage("buttonClicked");
                 }
         window.onload = function() {
             document.getElementById('callUnity').addEventListener('click', function() {
